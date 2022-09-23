@@ -8,6 +8,7 @@ class Item
     end
 
     attr_accessor :title, :description
+    attr_reader :deadline
     def initialize(title, deadline, description)
         raise "deadline is not valid" if !Item.valid_date?(deadline)
         @title = title
