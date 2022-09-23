@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+ul.ingredients-list {
+    list-style: square inside;
+}
+
+ol {
+    list-style:lower-roman;
+}
+
+header > img {
+    width: 100px;
+}
+
+ul li a {
+    text-decorations: none;
+    color: inherit;
+}
+
+* {
+    background-color: rosybrown;
+}
+
+dvi#_review {
+    font-family:cursive;
+    font-style: italic;
+}
