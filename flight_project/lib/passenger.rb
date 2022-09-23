@@ -15,10 +15,4 @@ class Passenger
         @flight_numbers << flight_number.upcase if !self.has_flight?(flight_number)
     end
 
-    def board_passenger(passenger_instance)
-       if passenger.has_flight? && !Flight.passengers.full?
-        Flight.passengers << passenger_instance
-       end
-    end
-
 end
